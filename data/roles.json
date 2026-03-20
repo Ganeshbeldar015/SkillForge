@@ -1,0 +1,94 @@
+{
+  "AI Engineer": [
+    "python",
+    "machine learning",
+    "deep learning",
+    "nlp",
+    "statistics",
+    "tensorflow",
+    "pytorch",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "data analysis",
+    "sql"
+  ],
+  "Web Developer": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "node",
+    "typescript",
+    "rest api",
+    "git",
+    "sql"
+  ],
+  "Data Scientist": [
+    "python",
+    "statistics",
+    "machine learning",
+    "data analysis",
+    "pandas",
+    "numpy",
+    "sql",
+    "tableau",
+    "scikit-learn",
+    "deep learning"
+  ],
+  "Data Analyst": [
+    "sql",
+    "excel",
+    "python",
+    "statistics",
+    "data analysis",
+    "tableau",
+    "power bi",
+    "pandas"
+  ],
+  "Backend Developer": [
+    "python",
+    "sql",
+    "rest api",
+    "docker",
+    "kubernetes",
+    "flask",
+    "django",
+    "fastapi",
+    "git",
+    "linux",
+    "postgresql",
+    "aws"
+  ],
+  "Frontend Developer": [
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "typescript",
+    "graphql",
+    "git"
+  ],
+  "DevOps Engineer": [
+    "linux",
+    "docker",
+    "kubernetes",
+    "aws",
+    "azure",
+    "git",
+    "python",
+    "rest api"
+  ],
+  "NLP Engineer": [
+    "python",
+    "nlp",
+    "natural language processing",
+    "deep learning",
+    "machine learning",
+    "tensorflow",
+    "pytorch",
+    "statistics",
+    "pandas",
+    "numpy"
+  ]
+}

@@ -1,0 +1,26 @@
+# API Keys (CRITICAL)
+.env
+
+# Python Environments
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/build/
+.pnp
+.pnp.js
+
+# Project specific temporary files
+uploads/
+backend/uploads/
+
+# OS Generated
+.DS_Store
+Thumbs.db

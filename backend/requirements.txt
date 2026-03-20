@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+spacy
+sentence-transformers
+numpy
+pandas
+matplotlib
+openai
+python-dotenv
