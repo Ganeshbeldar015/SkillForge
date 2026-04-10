@@ -1,0 +1,16 @@
+# Render deployment configuration for SkillForge Backend
+# Deploy this FastAPI backend to Render.com
+
+services:
+  - type: web
+    name: skillforge-backend
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r backend/requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false  # Set this manually in Render dashboard
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    healthCheckPath: /

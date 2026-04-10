@@ -3,7 +3,7 @@
  * All backend communication goes through here.
  */
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
 
 /**
  * Analyze a resume PDF for a given target role.
