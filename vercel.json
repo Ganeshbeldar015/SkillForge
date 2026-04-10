@@ -14,8 +14,5 @@
       "src": "/(.*)",
       "dest": "frontend/build/$1"
     }
-  ],
-  "env": {
-    "REACT_APP_API_URL": "@skillforge_api_url"
-  }
+  ]
 }
