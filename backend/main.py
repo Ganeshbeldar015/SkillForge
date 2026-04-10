@@ -84,7 +84,7 @@ app = FastAPI(
 # ---------------------------------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # lock down to specific origin in production
+    allow_origins=["https://skill-forge-5zxn.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
